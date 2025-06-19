@@ -1,8 +1,8 @@
-export default function pageHome() {
+export default function pageCursos() {
   return (
     <div className="">
       <main className="bg-background">
-        <button>Home</button>
+        <button>Cursos</button>
       </main>
     </div>
   );
