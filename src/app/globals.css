@@ -2,20 +2,20 @@
 @config "../../tailwind.config.ts";
 
 :root {
-  --color-text: #ffffff;
-  --color-error: #980000;
-  --color-paper: #232323;
-  --color-primary: #009688;
-  --color-background: #000000;
+  --color-text: #e0f7fa;
+  --color-error: #ff5252;
+  --color-paper: #0a0f1c;
+  --color-primary: #1565c0;
+  --color-background: #020710;
   --color-primary-contrast: #ffffff;
 }
 
 html[light] {
-  --color-text: #ffffff;
-  --color-error: #980000;
-  --color-paper: #232323;
-  --color-primary: #009688;
-  --color-background: #cacaca;
+  --color-text: #0a0f1c;
+  --color-error: #d32f2f;
+  --color-paper: #e3f2fd;
+  --color-primary: #2196f3;
+  --color-background: #f4faff;
   --color-primary-contrast: #ffffff;
 }
 
