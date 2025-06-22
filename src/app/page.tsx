@@ -1,9 +1,9 @@
 export default function pageHome() {
   return (
-    <div className="">
-      <main className="bg-background">
+    <div>
+      <>
         <button>Home</button>
-      </main>
+      </>
     </div>
   );
 }
