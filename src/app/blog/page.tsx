@@ -1,3 +1,9 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Página de blog!",
+};
+
 export default function pageBlog() {
   return (
     <>
