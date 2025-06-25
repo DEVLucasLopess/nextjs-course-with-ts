@@ -1,4 +1,5 @@
 import { Card } from "@/components/card/Card";
+import { Section } from "@/components/section/Section";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -9,11 +10,11 @@ export default function pageHome() {
   "https://i.ytimg.com/vi/SVepTuBK4V0/hqdefault.jpg";
 
   return (
-    <>
+    <main>
       <div className="flex items-center justify-center height-100">
         <h1 className="text-3xl font-bold">Home page</h1>
       </div>
-      <Card
+      {/* <Card
         href="/cursos/Id-123"
         imageUrl="https://i.ytimg.com/vi/SVepTuBK4V0/hqdefault.jpg"
         title="Curso de Api Rest, Node e Typescript"
@@ -48,7 +49,8 @@ export default function pageHome() {
             Adicionando link no card 30:00 | Configurando card para modo desktop
             32:30 | Commit dos ajustes 33:00 | Finalização e agradecimentos
             CODARSE - Tela inicial, de cursos e components`}
-      />
-    </>
+      /> */}
+      <Section />
+    </main>
   );
 }
