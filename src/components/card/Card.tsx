@@ -1,20 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
 
-type iCardProps = {
+export type iCardProps = {
   href: string;
   title: string;
   description: string;
-  imageUrl: string;
+  image: string;
 };
 
-export const Card = ({ description, href, imageUrl, title }: iCardProps) => {
+export const Card = ({ description, href, image, title }: iCardProps) => {
   return (
     <>
       <Link href={href} className="hover:no-underline">
         <article className="flex flex-col gap-2 p-2 rounded sm:hover:bg-primary">
           <Image
-            src={imageUrl}
+            src={image}
             alt={title}
             width={1000}
             className="aspect-video object-cover rounded-2xl"
