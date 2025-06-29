@@ -23,7 +23,7 @@ export default function RootLayout({
       <body className={montserrat.className}>
         <Header />
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );

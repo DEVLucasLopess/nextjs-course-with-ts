@@ -21,23 +21,28 @@ html[light] {
 
 html,
 body {
-  @apply bg-background text-text font-sans underline-offset-4;
+  @apply h-full;
 }
 
-.button {
+body {
+  overflow: overlay;
+  @apply h-full bg-background text-text font-sans underline-offset-4;
+}
+
+.footer-nav button {
   @apply cursor-pointer p-2 px-4 bg-primary text-primary-contrast;
 }
 
-a {
+.footer-nav a {
   @apply relative;
 }
 
-a::after {
+.footer-nav a::after {
   content: "";
   @apply absolute left-0 -bottom-1 h-[2px] w-full bg-red-50 origin-left scale-x-0 transition-transform duration-300;
   transform-origin: left;
 }
 
-a:hover::after {
+.footer-nav a:hover::after {
   @apply scale-x-100;
 }

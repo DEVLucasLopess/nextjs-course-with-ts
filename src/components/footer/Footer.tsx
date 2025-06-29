@@ -3,7 +3,7 @@ import { MdOpenInNew } from "react-icons/md";
 
 export const Footer = () => {
   return (
-    <footer className="fixed bottom-0 w-full block md:flex bg-primary text-white py-8 items-center justify-around">
+    <footer className="max-sm:hidden bottom-0 left-0 w-full bg-primary text-white px-4 md:flex items-center justify-around z-50">
       <div className="text-center md:text-left">
         <h1 className="text-2xl font-bold">Footer Component</h1>
         <p className="mt-2">

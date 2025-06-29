@@ -20,7 +20,7 @@ export const Header = () => {
 
   return (
     <>
-      <nav className="max-md:block md:flex items-center justify-star md:justify-around bg-primary px-6 py-4">
+      <nav className="footer-nav max-md:block md:flex items-center justify-star md:justify-around bg-primary px-6 py-4">
         <div className="flex items-center justify-between w-full md:w-auto">
           <Link href="/" className="md:text-white md:font-bold md:text-xl">
             Logo
