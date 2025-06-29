@@ -47,7 +47,7 @@ export default function pageHome() {
                    33:00 | Finalização e agradecimentos;`;
 
   return (
-    <main className="mt-8 flex justify-center">
+    <main className="mt-8 flex justify-center w-full">
       <div className="min-[880px]:max-w-[880px]">
         <Section
           title="Todos os cursos"

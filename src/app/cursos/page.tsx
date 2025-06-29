@@ -48,7 +48,7 @@ const cursos = `367 visualizações 11 de jul. de 2024 ✪ Prioridade para membr
 export default function pageCursos() {
   return (
     <>
-      <main className="mt-8 flex justify-center">
+      <main className="mt-8 flex justify-center w-full">
         <div className="flex min-[880px]:max-w-[880px]">
           <Section
             title="Todos os cursos"

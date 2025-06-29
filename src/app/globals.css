@@ -4,7 +4,7 @@
 :root {
   --color-text: #e0f7fa;
   --color-error: #ff5252;
-  --color-paper: #0a0f1c;
+  --color-paper: #364456;
   --color-primary: #1565c0;
   --color-background: #020710;
   --color-primary-contrast: #ffffff;
@@ -21,7 +21,7 @@ html[light] {
 
 html,
 body {
-  @apply h-full;
+  @apply h-full overflow-x-hidden;
 }
 
 body {
@@ -45,4 +45,31 @@ body {
 
 .footer-nav a:hover::after {
   @apply scale-x-100;
+}
+
+.overflow-primary::-webkit-scrollbar-thumb {
+  @apply bg-primary;
+}
+
+/* tamanho do scroll */
+*::-webkit-scrollbar {
+  @apply w-3 h-3;
+}
+
+*::-webkit-scrollbar-button {
+  @apply hidden;
+}
+
+*::-webkit-scrollbar-corner {
+  @apply bg-transparent;
+}
+
+/* cor do scroll */
+*::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-paper;
+}
+
+/* cor do fundo do scroll */
+*::-webkit-scrollbar-track {
+  @apply bg-transparent;
 }
