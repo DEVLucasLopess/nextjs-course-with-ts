@@ -1,3 +1,4 @@
+import { CourseHeader } from "@/components/course-header/CourseHeader";
 import { Metadata } from "next";
 
 interface Props {
@@ -18,9 +19,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default function PageCourseDatails({ params }: Props) {
   return (
     <>
-      <div className="mt-8 flex items-center justify-center">
-        <h1 className="text-3xl font-bold">Pagina de Contato {params.id}</h1>
-      </div>
+      <main className="max-w-full mt-8 flex justify-center w-full">
+        <div className="w-full min-[880px]:max-w-[880px]">
+          <CourseHeader />
+        </div>
+      </main>
     </>
   );
 }
