@@ -1,7 +1,7 @@
 "use client";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import { Card, iCardProps } from "../card/Card";
-import { UIEvent, useEffect, useRef, useState } from "react";
+import { UIEvent, useRef, useState } from "react";
 
 interface ISectionProps {
   title?: string;

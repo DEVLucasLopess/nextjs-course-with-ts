@@ -1,4 +1,5 @@
 import { CourseHeader } from "@/components/course-header/CourseHeader";
+import { StartCourse } from "@/components/startCourse/StartCourse";
 import { Metadata } from "next";
 
 interface Props {
@@ -20,7 +21,13 @@ export default function PageCourseDatails({ params }: Props) {
   return (
     <>
       <main className="max-w-full mt-8 flex justify-center w-full">
-        <div className="w-full min-[880px]:max-w-[880px]">
+        <div className="w-full min-[880px]:max-w-[880px] px-2 flex flex-col gap-4">
+          <StartCourse
+            idClass="1"
+            imageUrl="https://i.ytimg.com/vi/SVepTuBK4V0/hqdefault.jpg"
+            idCourse="1"
+          />
+          <h1 className="text-2xl font-bold mb-4">Detalhes do Curso</h1>
           <CourseHeader />
         </div>
       </main>

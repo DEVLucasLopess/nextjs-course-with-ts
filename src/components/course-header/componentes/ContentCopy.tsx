@@ -33,7 +33,7 @@ export const ContentCopy = ({ children, title, content }: ContentCopyProps) => {
         <DropdownMenu.Trigger asChild>{children}</DropdownMenu.Trigger>
 
         <DropdownMenu.Portal>
-          <DropdownMenu.Content className="p-2 bg-paper border border-primary rounded-lg flex flex-col gap-2 mt-1">
+          <DropdownMenu.Content className="p-2 m-2 bg-paper border border-primary rounded-lg flex flex-col gap-2 mt-1">
             <span>{title}</span>
             <div className="flex items-center gap-2">
               <input

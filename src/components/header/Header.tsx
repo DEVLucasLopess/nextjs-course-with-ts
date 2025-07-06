@@ -27,7 +27,7 @@ export const Header = () => {
           </Link>
           <button
             onClick={() => handleDrawerOpen(true)}
-            className="mr-6 mt-0.5 cursor-pointer md:hidden"
+            className="mt-0.5 cursor-pointer md:hidden"
           >
             <MdMenu className="text-white md:hidden size-6" />
           </button>
